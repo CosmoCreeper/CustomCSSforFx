@@ -64,15 +64,15 @@
   font-style: italic !important;
 }
 
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(.browserContainer, #viewSource) .findbar-find-status {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(.browserContainer, #viewSource) .findbar-find-status {
   color: red !important;
 }
 
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(.browserContainer, #viewSource) .found-matches {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(.browserContainer, #viewSource) .found-matches {
   color: green !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext :is(.browserContainer, #viewSource) :is(.findbar-find-status,.found-matches) {
+:root[lwtheme][-moz-lwtheme]-brighttext :is(.browserContainer, #viewSource) :is(.findbar-find-status,.found-matches) {
   color: white !important;
 }
 

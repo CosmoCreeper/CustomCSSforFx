@@ -16,8 +16,8 @@
   color: black !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext #sidebar-box,
-:root[lwtheme]:-moz-lwtheme-brighttext #sidebar-box * {
+:root[lwtheme][-moz-lwtheme]-brighttext #sidebar-box,
+:root[lwtheme][-moz-lwtheme]-brighttext #sidebar-box * {
   color: white !important;
 }
 

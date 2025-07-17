@@ -27,23 +27,23 @@
   fill: #336699 !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #context-back :is(.menu-icon,.menu-iconic-icon) {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #context-back :is(.menu-icon,.menu-iconic-icon) {
   fill: #00d2ff !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #context-forward :is(.menu-icon,.menu-iconic-icon) {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #context-forward :is(.menu-icon,.menu-iconic-icon) {
   fill: #00d2ff !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #context-reload :is(.menu-icon,.menu-iconic-icon) {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #context-reload :is(.menu-icon,.menu-iconic-icon) {
   fill: lightgreen !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #context-stop :is(.menu-icon,.menu-iconic-icon) {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #context-stop :is(.menu-icon,.menu-iconic-icon) {
   fill: #ff5a5a !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #context-bookmarkpage :is(.menu-icon,.menu-iconic-icon) {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #context-bookmarkpage :is(.menu-icon,.menu-iconic-icon) {
   fill: #64a3e2 !important;
 }
 

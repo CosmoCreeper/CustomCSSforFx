@@ -3,7 +3,7 @@
 /****************************************************************************************/
 
 
-:root:has(#theme-CustomCSSforFx[cssforfx-colors="darker-one"])[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) {
+:root:has(#theme-CustomCSSforFx[cssforfx-colors="darker-one"])[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) {
 	#navigator-toolbox #TabsToolbar,
 	#navigator-toolbox #nav-bar,
 	#navigator-toolbox toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar) {

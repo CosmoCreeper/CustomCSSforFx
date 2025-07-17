@@ -12,7 +12,7 @@
 }
 
 /* url text color: fix for default dark theme*/
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #PopupAutoCompleteRichResult[autocompleteinput="urlbar"] .ac-url .ac-url-text:not([selected]) {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #PopupAutoCompleteRichResult[autocompleteinput="urlbar"] .ac-url .ac-url-text:not([selected]) {
   color: #00d2ff !important;
 }
 

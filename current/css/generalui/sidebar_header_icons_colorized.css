@@ -11,8 +11,8 @@
   opacity: 1.0 !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #sidebar-switcher-bookmarks::before,
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #sidebar-box[sidebarcommand="viewBookmarksSidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #sidebar-switcher-bookmarks::before,
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #sidebar-box[sidebarcommand="viewBookmarksSidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
   color: #64a3e2 !important;
   fill: #64a3e2 !important;
   opacity: 1.0 !important;
@@ -34,8 +34,8 @@
   opacity: 1.0 !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #sidebar-switcher-history::before,
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #sidebar-box[sidebarcommand="viewHistorySidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #sidebar-switcher-history::before,
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #sidebar-box[sidebarcommand="viewHistorySidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
   color: #ff00ff !important;
   fill: #ff00ff !important;
   opacity: 1.0 !important;
@@ -58,9 +58,9 @@
   opacity: 1.0 !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #sidebar-reverse-position::before,
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #sidebar-switcher-tabs::before,
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #sidebar-box[sidebarcommand="viewTabsSidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #sidebar-reverse-position::before,
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #sidebar-switcher-tabs::before,
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #sidebar-box[sidebarcommand="viewTabsSidebar"] > #sidebar-header > #sidebar-switcher-target > #sidebar-icon {
   color: #00d2ff !important;
   fill: #00d2ff !important;
   opacity: 1.0 !important;
@@ -82,7 +82,7 @@
   opacity: 1.0 !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #sidebar-menu-close::before {
+:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #sidebar-menu-close::before {
   color: #ff5a5a !important;
   fill: #ff5a5a !important;
   opacity: 1.0 !important;

@@ -43,7 +43,7 @@
 	:root:not([lwtheme]) #main-menubar > menu:not(:is(:hover,[open],[_moz-menuactive])) > :is(label,description) {
 	  color: var(--colored_menubar_text_color) !important;
 	}
-	:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #main-menubar > menu:not(:is(:hover,[open],[_moz-menuactive])) > :is(label,description) {
+	:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #main-menubar > menu:not(:is(:hover,[open],[_moz-menuactive])) > :is(label,description) {
 	  color: white !important;
 	}
 
@@ -63,7 +63,7 @@
 	:root:not([lwtheme]) #main-menubar > menu[open] {
 	  color: var(--colored_menubar_text_color) !important;
 	}
-	:root[lwtheme]:-moz-lwtheme-brighttext:not([style*='--lwt-header-image']) #main-menubar > menu:not([open]) > :is(label,description) {
+	:root[lwtheme][-moz-lwtheme]-brighttext:not([style*='--lwt-header-image']) #main-menubar > menu:not([open]) > :is(label,description) {
 	  color: white !important;
 	}
 

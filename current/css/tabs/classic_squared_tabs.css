@@ -123,52 +123,52 @@
 /********************************************/
 
 /* lightweight theme tab colors*/
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:is([selected],[multiselected]) .tab-content {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:is([selected],[multiselected]) .tab-content {
   background-image: var(--classic_squared_tabs_lwt-dark_active_tab) !important;
 }
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button),
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs):not([selected],[multiselected]) .tabbrowser-tab .tab-content {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button),
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs):not([selected],[multiselected]) .tabbrowser-tab .tab-content {
   background-image: var(--classic_squared_tabs_lwt-dark_other_tabs) !important;
 }
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button):hover,
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:not([selected],[multiselected]):hover .tab-content {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button):hover,
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:not([selected],[multiselected]):hover .tab-content {
   background-image: var(--classic_squared_tabs_lwt-dark_hovered_tabs) !important;
 }
 
-:root[lwtheme]:-moz-lwtheme-brighttext :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:is([selected],[multiselected]) .tab-content {
+:root[lwtheme][-moz-lwtheme]-brighttext :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:is([selected],[multiselected]) .tab-content {
   background-image: var(--classic_squared_tabs_lwt-bright_active_tab) !important;
 }
-:root[lwtheme]:-moz-lwtheme-brighttext :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button),
+:root[lwtheme][-moz-lwtheme]-brighttext :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button),
 :root[lwtheme] :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:not([selected],[multiselected]) .tab-content {
   background-image: var(--classic_squared_tabs_lwt-bright_other_tabs) !important;
 }
-:root[lwtheme]:-moz-lwtheme-brighttext :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button):hover,
-:root[lwtheme]:-moz-lwtheme-brighttext :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:not([selected],[multiselected]):hover .tab-content {
+:root[lwtheme][-moz-lwtheme]-brighttext :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button):hover,
+:root[lwtheme][-moz-lwtheme]-brighttext :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:not([selected],[multiselected]):hover .tab-content {
   background-image: var(--classic_squared_tabs_lwt-bright_hovered_tabs) !important;
 }
-:root[lwtheme]:-moz-lwtheme-brighttext :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:not([selected],[multiselected]):not(:hover) {
+:root[lwtheme][-moz-lwtheme]-brighttext :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:not([selected],[multiselected]):not(:hover) {
   background: unset !important;
 }
 
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:is([selected],[multiselected]) .tab-content {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:is([selected],[multiselected]) .tab-content {
   border-top: 1px solid rgba(0,0,0,.5) !important;
   border-left: 1px solid rgba(0,0,0,.4) !important; 
   border-right: 1px solid rgba(0,0,0,.4) !important;
 }
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:is([selected],[multiselected]) .tab-content {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:is([selected],[multiselected]) .tab-content {
   border-top: 1px solid rgba(255,255,255,.2) !important;
   border-left: 1px solid rgba(255,255,255,.1) !important; 
   border-right: 1px solid rgba(255,255,255,.1) !important; 
 }
 
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button),
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab .tab-content {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button),
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab .tab-content {
   border-top: 1px solid rgba(0,0,0,.2) !important;
   border-left: 1px solid rgba(0,0,0,.2) !important; 
   border-right: 1px solid rgba(0,0,0,.2) !important; 
 }
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button),
-:root[lwtheme]:not(:-moz-lwtheme-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab .tab-content {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) :is(.tabs-newtab-button,#tabs-newtab-button),
+:root[lwtheme]:not([-moz-lwtheme]-brighttext) :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab .tab-content {
   border-top: 1px solid rgba(255,255,255,.2) !important;
   border-left: 1px solid rgba(255,255,255,.1) !important; 
   border-right: 1px solid rgba(255,255,255,.1) !important; 
@@ -276,7 +276,7 @@
 }
 
 /* experimental tab text opacity change */
-:root[lwtheme]:-moz-lwtheme-brighttext :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:not([selected],[multiselected]) .tab-text {
+:root[lwtheme][-moz-lwtheme]-brighttext :is(#TabsToolbar,#vertical-tabs) .tabbrowser-tab:not([selected],[multiselected]) .tab-text {
   opacity: 0.8 !important;
 }
 

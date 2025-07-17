@@ -57,7 +57,7 @@
   color: var(--lwt-text-color) !important;
   fill: var(--lwt-text-color) !important;
 }
-:root[lwtheme][style*='--lwt-header-image']:-moz-lwtheme-brighttext :is(.browserContainer,#viewSource) :is(findbar,#FindToolbar) :is(.toolbarbutton-icon,.toolbarbutton-text) {
+:root[lwtheme][style*='--lwt-header-image'][-moz-lwtheme]-brighttext :is(.browserContainer,#viewSource) :is(findbar,#FindToolbar) :is(.toolbarbutton-icon,.toolbarbutton-text) {
   text-shadow: 1px 1px 1px black !important;
 }
 

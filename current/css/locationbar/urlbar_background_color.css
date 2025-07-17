@@ -22,8 +22,8 @@
 
 :root[lwtheme]:not([privatebrowsingmode]) #searchbar,
 :root[lwtheme]:not([privatebrowsingmode]) #urlbar :is(#urlbar-input,#urlbar-scheme,#page-action-buttons,#identity-icon-box,#urlbar-input-container,.urlbar-input-container,#urlbar-background,.urlbarView),
-:root[lwtheme]:not(:-moz-lwtheme-brighttext):not([privatebrowsingmode]) #urlbar .urlbarView-row:not([type=tip], [type=dynamic])[selected] > .urlbarView-row-inner,
-:root[lwtheme]:not(:-moz-lwtheme-brighttext):not([privatebrowsingmode]) #urlbar .urlbarView-row-inner[selected] {
+:root[lwtheme]:not([-moz-lwtheme]-brighttext):not([privatebrowsingmode]) #urlbar .urlbarView-row:not([type=tip], [type=dynamic])[selected] > .urlbarView-row-inner,
+:root[lwtheme]:not([-moz-lwtheme]-brighttext):not([privatebrowsingmode]) #urlbar .urlbarView-row-inner[selected] {
   color: var(--urlbar_text_color) !important;
   fill: var(--urlbar_text_color) !important;
 }
