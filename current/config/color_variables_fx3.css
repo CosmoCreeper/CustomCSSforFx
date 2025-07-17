@@ -4,7 +4,7 @@
 
 
 /* Fx3 colors */
-:root {
+:root:has(#theme-CustomCSSforFx[cssforfx-colors="blueish"]) {
   --general_toolbar_color_toolbars: linear-gradient(#d3daed,#d3daed) !important;
   --general_toolbar_color_navbar: linear-gradient(#d3daed,#d3daed) !important;
   --general_toolbar_text_color: black !important;

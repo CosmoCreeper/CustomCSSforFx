@@ -4,7 +4,7 @@
 
 
 /* Noia 4 themes grey colors */
-:root {
+:root:has(#theme-CustomCSSforFx[cssforfx-colors="noia-gray"]) {
   --general_toolbar_color_toolbars: linear-gradient(#dadce4,#dadce4) !important;
   --general_toolbar_color_navbar: linear-gradient(#a3a6b1,#a3a6b1,#c7c9d0,#dadce4 100%) !important;
   --general_toolbar_text_color: black !important;

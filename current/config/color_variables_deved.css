@@ -4,7 +4,7 @@
 
 
 /* Developer Edition colors */
-:root {
+:root:has(#theme-CustomCSSforFx[cssforfx-colors="deved"]) {
   --general_toolbar_color_toolbars: linear-gradient(#393f4c,#393f4c) !important;
   --general_toolbar_color_navbar: linear-gradient(#393f4c,#393f4c) !important;
   --general_toolbar_text_color: white !important;

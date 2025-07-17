@@ -4,7 +4,7 @@
 
 
 /* Aero colors */
-:root {
+:root:has(#theme-CustomCSSforFx[cssforfx-colors="aero"]) {
   --general_toolbar_color_toolbars: linear-gradient(#ddebf9,#ddebf9) !important; /* (to bottom,#FFCC99,#FFCC99) */
   --general_toolbar_color_navbar: linear-gradient(#eaf2fb,#ddebf9) !important; /* (to bottom,#FFCC99,#FFCC99) */
   --general_toolbar_text_color: black !important;

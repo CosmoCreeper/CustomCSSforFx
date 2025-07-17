@@ -4,7 +4,7 @@
 
 
 /* Classic grey colors */
-:root {
+:root:has(#theme-CustomCSSforFx[cssforfx-colors="classic"]) {
   --general_toolbar_color_toolbars: linear-gradient(#d4d0c8,#d4d0c8) !important;
   --general_toolbar_color_navbar: linear-gradient(#d4d0c8,#d4d0c8) !important;
   --general_toolbar_text_color: black !important;

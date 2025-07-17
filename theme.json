@@ -1,6 +1,7 @@
 {
   "style": {
-    "chrome": "https://raw.githubusercontent.com/Aris-t2/CustomCSSforFx/master/current/userChrome.css",
-    "content": "https://raw.githubusercontent.com/Aris-t2/CustomCSSforFx/master/current/userContent.css"
-  }
+    "chrome": "https://raw.githubusercontent.com/CosmoCreeper/CustomCSSforFx/master/current/userChrome.css",
+    "content": "https://raw.githubusercontent.com/CosmoCreeper/CustomCSSforFx/master/current/userContent.css"
+  },
+  "preferences": "https://raw.githubusercontent.com/CosmoCreeper/CustomCSSforFx/master/current/preferences.json"
 }

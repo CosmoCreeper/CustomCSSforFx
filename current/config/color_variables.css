@@ -13,7 +13,7 @@
 */
 
 /* default colors */
-:root {
+:root:has(#theme-CustomCSSforFx[cssforfx-colors="default"]) {
   --general_toolbar_color_toolbars: linear-gradient(#f9f9fa,#f9f9fa) !important; /* (to bottom,#FFCC99,#FFCC99) */
   --general_toolbar_color_navbar: linear-gradient(#f9f9fa,#f9f9fa) !important; /* (to bottom,#FFCC99,#FFCC99) */
   --general_toolbar_text_color: inherit !important;

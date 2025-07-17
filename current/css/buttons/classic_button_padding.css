@@ -3,14 +3,16 @@
 /****************************************************************************************/
 
 
-:root {
-  --toolbarbutton-inner-padding: 8px !important;
-}
-
-:root[uidensity="compact"]{
-  --toolbarbutton-inner-padding: 6px !important;
-}
-
-:root[uidensity="touch"]{
-  --toolbarbutton-inner-padding: 9px !important;
+@media -moz-pref("cssforfx.buttons.proton-padding") {
+  :root {
+    --toolbarbutton-inner-padding: 8px !important;
+  }
+  
+  :root[uidensity="compact"]{
+    --toolbarbutton-inner-padding: 6px !important;
+  }
+  
+  :root[uidensity="touch"]{
+    --toolbarbutton-inner-padding: 9px !important;
+  }
 }

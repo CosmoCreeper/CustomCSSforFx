@@ -1,0 +1,133 @@
+[
+    {
+        "type": "dropdown",
+        "property": "cssforfx.colors",
+        "label": "Select a color scheme.",
+        "defaultValue": "default",
+        "placeholder": false,
+        "options": [
+            {
+                "label": "Default, gray",
+                "value": "default"
+            },
+            {
+                "label": "Aero",
+                "value": "aero"
+            },
+            {
+                "label": "Classic, gray",
+                "value": "classic"
+            },
+            {
+                "label": "Blueish, Firefox 3-like",
+                "value": "blueish"
+            },
+            {
+                "label": "Semi-transparent",
+                "value": "semitransparent"
+            },
+            {
+                "label": "Aero Glass",
+                "value": "aeroglass"
+            },
+            {
+                "label": "Developer Edition-like theme",
+                "value": "deved"
+            },
+            {
+                "label": "'Noia 4', gray",
+                "value": "noia-gray"
+            },
+            {
+                "label": "'Noia 4', lightgray",
+                "value": "noia-lightgray"
+            },
+            {
+                "label": "'Noia 4', dark",
+                "value": "noia-dark"
+            },
+            {
+                "label": "Darker default",
+                "value": "darker-one"
+            },
+            {
+                "label": "Darker default (v2)",
+                "value": "darker-two"
+            }
+        ]
+    },
+    {
+        "type": "checkbox",
+        "property": "cssforfx.custom-scrollbar",
+        "label": "Enables custom scrollbars."
+    },
+    {
+        "type": "dropdown",
+        "property": "cssforfx.colors",
+        "label": "Select an icon appearance.",
+        "defaultValue": "colorful",
+        "placeholder": false,
+        "options": [
+            {
+                "label": "Colorful",
+                "value": "colorful"
+            },
+            {
+                "label": "white",
+                "value": "white"
+            }
+        ]
+    },
+    {
+        "type": "separator",
+        "label": "Buttons"
+    },
+    {
+        "type": "checkbox",
+        "property": "cssforfx.buttons.proton-padding",
+        "label": "Enables classic, pre-Proton button padding."
+    },
+    {
+        "type": "dropdown",
+        "property": "cssforfx.buttons.appearance",
+        "label": "Select a button appearance.",
+        "defaultValue": "classic",
+        "placeholder": false,
+        "options": [
+            {
+                "label": "Classic",
+                "value": "classic"
+            },
+            {
+                "label": "Classic (v2)",
+                "value": "classic-two"
+            },
+            {
+                "label": "Classic Dark",
+                "value": "classic-dark"
+            },
+            {
+                "label": "Aero",
+                "value": "aero"
+            },
+            {
+                "label": "Classic Windows style",
+                "value": "classic-windows"
+            },
+            {
+                "label": "Glass",
+                "value": "glass"
+            },
+            {
+                "label": "Osx",
+                "value": "osx"
+            }
+        ]
+    },
+    {
+        "type": "string",
+        "property": "cssforfx.buttons.radius",
+        "defaultValue": "20px",
+        "label": "Input a border radius for buttons."
+    }
+]

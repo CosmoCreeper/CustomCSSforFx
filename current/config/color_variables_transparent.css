@@ -4,7 +4,7 @@
 
 
 /* 'Transparent' colors */
-:root {
+:root:has(#theme-CustomCSSforFx[cssforfx-colors="semitransparent"]) {
   --general_toolbar_color_toolbars: linear-gradient(rgba(255,255,255,.4),rgba(255,255,255,.4)) !important;
   --general_toolbar_color_navbar: linear-gradient(rgba(255,255,255,.4),rgba(255,255,255,.4)) !important;
   --general_toolbar_text_color: white !important;
@@ -33,31 +33,31 @@
   --classic_squared_tabs_lwt-bright_hovered_tabs: linear-gradient(hsla(0,0%,60%,.6), hsla(0,0%,45%,.6) 80%) !important;
   --classic_squared_tabs_lwt-bright_other_tabs: linear-gradient(hsla(0,0%,40%,.6), hsla(0,0%,30%,.6) 80%) !important;
   --classic_squared_tabs_lwt-bright_active_tab: inherit !important; /* linear-gradient(blue, hsla(0,0%,60%,.5) 80%) */
-}
 
-/* navigation toolbar background */
-#nav-bar:not(:-moz-lwtheme) {
-  background: unset !important;
-  border: unset !important;
-  box-shadow: unset !important;
-}
+  /* navigation toolbar background */
+  #nav-bar:not(:-moz-lwtheme) {
+    background: unset !important;
+    border: unset !important;
+    box-shadow: unset !important;
+  }
 
-/* toolbar background */
-toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar):not(:-moz-lwtheme) {
-  background: unset !important;
-  border: unset !important;
-  box-shadow: unset !important;
-}
+  /* toolbar background */
+  toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar):not(:-moz-lwtheme) {
+    background: unset !important;
+    border: unset !important;
+    box-shadow: unset !important;
+  }
 
-/* hide toolbar shadow */
-#nav-bar:not(:-moz-lwtheme),
-toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar):not(:-moz-lwtheme) {
-  appearance: none !important;
-  box-shadow: unset !important;
-}
+  /* hide toolbar shadow */
+  #nav-bar:not(:-moz-lwtheme),
+  toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar):not(:-moz-lwtheme) {
+    appearance: none !important;
+    box-shadow: unset !important;
+  }
 
-/* menubar */
-#main-window:not(:-moz-lwtheme) #main-menubar > menu > :is(label,description) {
-  color: var(--general_toolbar_text_color, inherit) !important;
-  text-shadow: 1px 1px 1px var(--general_toolbar_text_shadow, inherit) !important;
+  /* menubar */
+  #main-window:not(:-moz-lwtheme) #main-menubar > menu > :is(label,description) {
+    color: var(--general_toolbar_text_color, inherit) !important;
+    text-shadow: 1px 1px 1px var(--general_toolbar_text_shadow, inherit) !important;
+  }
 }

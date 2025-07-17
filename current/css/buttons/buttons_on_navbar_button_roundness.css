@@ -3,7 +3,9 @@
 /****************************************************************************************/
 
 
-#nav-bar toolbarbutton:not(.all-tabs-button) .toolbarbutton-icon,
-#nav-bar toolbarbutton:not(.all-tabs-button) .toolbarbutton-badge-stack {
-  border-radius: 20px !important;
+#nav-bar toolbarbutton:not(.all-tabs-button) {
+  .toolbarbutton-icon,
+  .toolbarbutton-badge-stack {
+    border-radius: var(--cssforfx-buttons-radius) !important;
+  }
 }
